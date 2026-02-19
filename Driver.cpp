@@ -1,6 +1,5 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
-#include "Filter2.h"
 #include"baseline.h"
 #include"histogram.h"
 #include"law.h"

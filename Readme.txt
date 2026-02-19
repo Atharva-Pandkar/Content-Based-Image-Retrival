@@ -17,17 +17,17 @@ law.h
 multihistogram.cpp
 multihistogram.h
 textureColor.cpp
-textureCOlor.h
+textureColor.h
 
 For running the program we should run the Driver.cpp
 
 Driver.cpp takes in command line arguments.
 1.<Target_File> :- This is the image loaction for the target to be searched
 2.<Dir_name> :- This is the directory that contains the database with which the target image is checked against
-3.<Type> :- There are 5 types avaliable based on their numbers
+3.<Type> :- There are 5 types available based on their numbers
 		1. Baseline matching 9x9
 		2. Histogram matching
-		3. Multi Histogram matchinng
+		3. Multi Histogram matching
 		4. Texture and Color matching
 		5. Law filters
 4.<Number_of_results> :- A number representing the total number of images to display.

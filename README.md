@@ -33,6 +33,27 @@ At build/run time, the following should be present:
 
 ## Building & Running
 
+### Option 1: CMake (Recommended for cross-platform)
+
+**Prerequisites:**
+- CMake 3.10 or higher
+- OpenCV 4.x installed on your system
+
+**Build steps:**
+
+```bash
+# Create build directory and configure
+cmake -B build
+
+# Build the project
+cmake --build build
+
+# Run the executable
+./build/image_retrieval <Target_File> <Dir_name> <Type> <Number_of_results>
+```
+
+### Option 2: Visual Studio (Windows)
+
 1. Open the project in **Visual Studio** and build.
 2. Run **Driver.cpp** (the main executable).
 

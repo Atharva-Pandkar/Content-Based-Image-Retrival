@@ -17,7 +17,7 @@ law.h
 multihistogram.cpp
 multihistogram.h
 textureColor.cpp
-textureCOlor.h
+textureColor.h
 
 For running the program we should run the Driver.cpp
 
